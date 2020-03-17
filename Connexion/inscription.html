@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Inscription </title>
+	<link type="text/css" rel="stylesheet" href="connexion.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    
+</head>
+
+<main>
+
+    <header>
+
+    </header>
+
+    <body>
+            <h1 id="titre2">Veuillez remplir ce formulaire d'inscription :</h1>
+            <form action="connexion.html" method="POST" id="second">
+                    <label for="user"><span class="red">*&nbsp;</span>Nom d'utilisateur :</label>
+                    <input type="text" id="user" placeholder="Votre nom d'utilisateur" required="required">
+                    <label for="mdp"><span class="red">*&nbsp;</span>Mot de passe :</label>
+                    <input type="password" id="mdp" placeholder="Votre mot de passe" required="required">
+                    <label for="confmdp"><span class="red">*&nbsp;</span>Confirmation de votre mot de passe :</label>
+                    <input type="password" id="confmdp" placeholder="Votre mot de passe" required="required">
+                    <label for="birth">Votre année de naissance :</label>
+                    <input type="date" id="birth">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" placeholder="Votre nom de famille">
+                    <label for="fname">Prénom :</label>
+                    <input type="text" id="fname" placeholder="Votre prénom">
+                    <label for="mail"><span class="red">*&nbsp;</span>Mail :</label>
+                    <input type="email" id="mail" placeholder="Votre adresse mail" required="required">
+                    Genre : 
+                    <select name="sexe" id="sexe">
+                        <option>Homme</option>
+                        <option>Femme</option>
+                    </select>
+                    Niveau d'étude : 
+                    <select name="etudes" id="etudes">
+                        <option>Niveau 3 : BEP/CAP/DNB/CFG</option>
+                        <option>Niveau 4 : BAC +0</option>
+                        <option>Niveau 5 : BAC +2</option>
+                        <option>Niveau 6 : BAC +3 et +4</option>
+                        <option>Niveau 7+ : Masters / Doctorats</option>
+                    </select>
+                    <label for="tel">Téléphone : </label>
+                    <input type="text" minlength="10" maxlength="10" id="tel" placeholder="Votre numéro de téléphone">
+                    <label for="presentation">Présentation :</label>
+                    <textarea id="presentation" rows="4" cols="50" placeholder="Présentez-vous brièvement"></textarea>
+                    Hobbies : <br />
+                    <div class="check">
+                        <input type="checkbox" id="hobby1" name="hobby1" value="jeux">
+                        <label for="hobby1"><p class="droite">Jeux-Vidéos</p></label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="hobby2" name="hobby2" value="voyage">
+                        <label for="hobby2"><p class="droite">Voyage</p></label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="hobby3" name="hobby3" value="art">
+                        <label for="hobby3"><p class="droite">Art</p></label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="hobby3" name="hobby3" value="sport">
+                        <label for="hobby3"><p class="droite">Sport</p></label>
+                    </div>
+                    <input type="submit" value="Inscription" id="button2">
+            </form>
+    </body>
+
+    <footer>
+
+    </footer>
+
+</main>

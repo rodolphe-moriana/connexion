@@ -1,0 +1,170 @@
+*
+{ margin: 0px;
+  padding: 0px;
+  background-color: lightslategray;
+  font-family: 'Baloo Chettan 2', cursive;
+  word-wrap: break-word;
+}
+
+#titre1{
+    text-align: center;
+    padding-top: 15%;
+}
+
+#titre2{
+    text-align: center;
+}
+
+#titre3{
+    text-align: center;
+}
+
+#titre4{
+    font-size: 1000%;
+    color: linen;
+}
+
+#first{
+    display: flex;
+    flex-flow: column wrap;
+    width: 16%;
+    align-content: center;
+    padding-left: 42%;
+    padding-top: 1%;
+    text-align: center;
+}
+
+#second{
+    display: flex;
+    flex-flow: column wrap;
+    width: 16%;
+    align-content: center;
+    padding-left: 42%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+#third{
+    display: flex;
+    flex-flow: column wrap;
+    width: 16%;
+    align-content: center;
+    padding-left: 42%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+::placeholder{
+                color: linen;
+}
+
+#hobbies, #etudes, #sexe, #birth{
+        color: linen;
+}
+
+#button2{
+         margin-top: 5%;
+}
+
+#button1,#button2,#button3{
+        border-width: 4px;
+        border-radius: 3%;
+        border-style: outset;
+}
+
+#presentation{
+    padding-bottom: 20%;
+    border-width: 4px;
+    border-radius: 3%;
+    border-style: outset;
+}
+
+#mail{
+    width: 120%;
+}
+
+.check{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        margin-top: 2%;
+        font-family: 'Baloo Chettan 2', cursive;
+}
+
+#liens{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+        margin-left: 42%;
+        padding-top: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: linen
+}
+
+a:hover{
+         color: blue;
+}
+
+.red{
+        color: red;
+}
+
+.droite{
+        width: 200px;
+        text-align: left;
+        margin-left: 20%;
+        padding-bottom: 2%;
+        color: linen;
+}
+
+#titre4{
+    font-size: 1000%;
+    color: linen;
+}
+
+img{
+    margin-left: 12%;
+    margin-top: 15%;
+    background-color: linen;
+
+}
+
+#flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+#flex2{
+        width: 50%;
+        background-color: linen;
+}
+
+#flex3{
+        width: 50%;
+        text-align: center;
+        padding-top: 12%;
+        height: 738px;
+}
+
+h2{
+    font-size: 200%;
+    color: linen;
+}
+
+h3{
+    font-size: 80%;
+    margin-top: 2%;
+    color: linen;
+
+}
+
+#body404{
+        background-repeat:no-repeat;
+}
